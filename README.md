@@ -2,8 +2,6 @@
 
 A simple command-line task manager built with Python.
 
-> ⚠️ This project is currently a work in progress.
-
 ---
 
 ## 📌 Description

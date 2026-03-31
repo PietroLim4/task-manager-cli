@@ -1,2 +1,70 @@
-# task-manager-cli
-Simple CLI task manager built in Python to practice core programming concepts.
+# Task Manager CLI
+
+A simple command-line task manager built with Python.
+
+> ⚠️ This project is currently a work in progress.
+
+---
+
+## 📌 Description
+
+This project was created to practice core programming concepts such as:
+
+* loops (`while`, `for`)
+* conditionals (`if`)
+* lists
+* user input handling
+
+The goal is to evolve from basic exercises into a functional application.
+
+---
+
+## 🚀 Features
+
+* [x] Add tasks
+* [x] List tasks
+* [ ] Mark tasks as done
+* [ ] Remove tasks
+* [ ] Save tasks to file
+
+---
+
+## 🖥️ How to run
+
+```bash
+git clone https://github.com/SEU-USUARIO/task-manager-cli
+cd task-manager-cli
+python main.py
+```
+
+---
+
+## 📷 Example
+
+```
+1 - Add task
+2 - List tasks
+0 - Exit
+
+Choose: 1
+Task: study python
+
+Choose: 2
+1 - study python
+```
+
+---
+
+## 🎯 Goals
+
+* Practice Python fundamentals
+* Build a real interactive program
+* Improve code organization and structure
+
+---
+
+## 🧠 What I learned (to be updated)
+
+* Working with lists
+* Creating interactive menus
+* Handling user input

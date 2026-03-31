@@ -23,9 +23,9 @@ The goal is to evolve from basic exercises into a functional application.
 
 * [x] Add tasks
 * [x] List tasks
-* [ ] Mark tasks as done
-* [ ] Remove tasks
-* [ ] Save tasks to file
+* [x] Mark tasks as done
+* [x] Remove tasks
+* [x] Save tasks to file
 
 ---
 
@@ -63,8 +63,10 @@ Choose: 2
 
 ---
 
-## 🧠 What I learned (to be updated)
+## 🧠 What I learned
 
 * Working with lists
 * Creating interactive menus
 * Handling user input
+* More about lists
+* How to save as file

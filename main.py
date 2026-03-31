@@ -7,6 +7,8 @@ def show_tasks():
     for i in range(len(tasks)):
         status = "[X]" if tasks[i][1] else "[ ]"
         print(i+1, "-", tasks[i][0], status)
+    if len(tasks) == 0:
+        print("No tasks yet.")
 tasks=[]
 
 if os.path.exists("tasks.txt"):
@@ -14,13 +16,13 @@ if os.path.exists("tasks.txt"):
         for line in file:
             text, status = line.strip().split("|")
             tasks.append([text, status == "True"])
-            
+
 while True:
     clear()
     print("--- Task Manager ---")
     print("1 - Add Tasks")
     print("2 - List Tasks")
-    print("3 - Mark As Done")
+    print("3 - Toggle Task")
     print("4 - Remove Task")
     print("0 - Exit")
 
